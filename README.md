@@ -90,7 +90,10 @@ Set motor IDs & baudrate using:
 ### 3. Connect the Hardware  
 Follow connection & wiring diagrams in the `docs/` folder.
 
-### 4. Run Example  
+### 4. Choose Position Mode on Wizard 
+
+### 5. Run Example  
 ```bash
-cd examples
-opencr_upload basic_motion.ino
+python test_dynamixel.py
+
+

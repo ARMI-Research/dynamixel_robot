@@ -4,9 +4,9 @@ from dynamixel_sdk import *  # Uses Dynamixel SDK library
 # -------------------------------
 # Communication Settings
 # -------------------------------
-DEVICENAME = "/dev/ttyUSB0"    # Linux
-# DEVICENAME = "COM3"          # Windows
-BAUDRATE = 57600
+#DEVICENAME = "/dev/ttyUSB0"    # Linux
+DEVICENAME = "COM6"          # Windows
+BAUDRATE = 1000000
 
 # Control Table Address (Protocol 2.0 motors, e.g., XM430)
 ADDR_TORQUE_ENABLE = 64
@@ -60,7 +60,7 @@ print("Torque Enabled!")
 # -------------------------------
 # Move Motor to 512 (center pos)
 # -------------------------------
-goal_position = 512  # 0–1023 for AX-12A, 0–4095 for XM430
+goal_position = 1024  # 0–1023 for AX-12A, 0–4095 for XM430
 packetHandler.write4ByteTxRx(portHandler, target_id, ADDR_GOAL_POSITION, goal_position)
 print("Moving motor to:", goal_position)
 
