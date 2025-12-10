@@ -10,6 +10,7 @@
 A development project for building a **Dynamixel-based robot arm** using the **OpenCR** board.  
 This project is inspired by and references the **ROBOTIS OpenManipulator** architecture, aiming to offer an open, modular, and extensible robotic arm platform for research, education, and rapid prototyping.
 
+![image](./figs/5DOF_and_soft_gripper.png)
 ---
 
 ## 📌 Project Overview
