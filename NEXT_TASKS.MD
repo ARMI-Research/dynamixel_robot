@@ -14,7 +14,7 @@ Below is the expanded roadmap including **Mujoco simulation**, **multi-joint con
 1.  Install MuJoCo (>= 3.0)
 2.  Clone the repository:
     ```bash
-    git clone [https://github.com/ROBOTIS-GIT/robotis_mujoco_menagerie](https://github.com/ROBOTIS-GIT/robotis_mujoco_menagerie)
+    git clone https://github.com/ROBOTIS-GIT/robotis_mujoco_menagerie
     ```
 3.  Load the OpenManipulator-X model:
     `open_manipulator_x/open_manipulator_x.xml`
