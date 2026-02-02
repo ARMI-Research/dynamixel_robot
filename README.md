@@ -91,7 +91,7 @@ Set motor IDs & baudrate using:
 ### 3. Connect the Hardware  
 Follow connection & wiring diagrams in the `docs/` folder.
 
-### 4. Choose Position Mode on Wizard 
+### 4. Uploading U2D2 firmware in OpenCR example code
 
 ### 5. Run Example  
 ```bash
