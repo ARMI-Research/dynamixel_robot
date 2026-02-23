@@ -11,5 +11,5 @@ https://code.visualstudio.com
 - Open Dynamixel Wizard 2 -> Scan (Need to remember the baudrate, protocol, and ID of Motors) then click into each motor and explore its features -> Find ID in the control table to configure clearly for later to control grouped motors.
 - When finished playing with the motors, unplug all motors except the PROTOCOL 1 MOTORS to update it. *Note: Have to update each motor at a time.
 - Update motor step:
-    - Tools -> Firmware recovery -> Next -> Select the right model of the motor to update then follow the instructions of the app.
-- After install VSC (Visual Studio Code) go to Extensions or Ctrl + Shift + X then find and install Python and Python Debugger.
+    - Tools -> Firmware recovery -> Next -> Select model of the motor to update then follow the instructions of the app.
+- After install VSC (Visual Studio Code) go to Extensions or Ctrl + Shift + X then find and install Python and Python Debugger......

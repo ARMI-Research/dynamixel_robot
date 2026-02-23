@@ -2,3 +2,12 @@ dynamixel-sdk
 pyserial
 numpy
 mujoco
+scipy
+dm_control
+ipython
+ipympl
+gymnasium
+pandas
+opencv-python
+tourch
+pillow
