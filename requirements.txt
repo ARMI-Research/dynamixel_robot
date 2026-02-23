@@ -11,3 +11,6 @@ pandas
 opencv-python
 tourch
 pillow
+matplotlib
+stable-baselines3
+tqdm
